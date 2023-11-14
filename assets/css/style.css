@@ -31,3 +31,9 @@ h1 {
 .search-btn:hover {
     background-color: rgb(234, 99, 121);
 }
+
+.news-headline {
+    display: flex;
+    justify-content: center;
+    
+}
