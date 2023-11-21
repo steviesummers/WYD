@@ -1,39 +1,57 @@
-body {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(217, 160, 54)
-}
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
+#sidebar {
+    overflow: hidden;
+    transition: all 0.3s;
+    transform-origin: right;
 }
 
-h1 {
-    text-align: center;
+#resizer {
+    cursor: col-resize;
 }
 
-.city-input {
-    width: 20%;
+#search-history-title {
     padding: 10px;
-    margin: 10px 0;
 }
 
-.search-btn {
-    padding: 10px 20px;
-    background-color: rgb(118, 138, 234);
-    color: whitesmoke;
-    border: none;
-    cursor: pointer;
+#search-section input {
+    padding: 10px;
 }
 
-.search-btn:hover {
-    background-color: rgb(234, 99, 121);
+#search-section button, .history-btn {
+    padding: 10px;
 }
 
-.news-headline {
-    display: flex;
-    justify-content: center;
-    
+@media (max-width: 768px) {
+
+    #sidebar {
+        padding: 10px;
+    }
+}
+
+#city-events img {
+    height: 100px;
+}
+
+/* Style for the custom modal */
+#confirmationModal {
+  /* Basic styling for demonstration */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  z-index: 1000;
+}
+
+/* Style for the custom modal */
+#confirmationModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  z-index: 1000;
 }
