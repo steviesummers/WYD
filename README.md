@@ -38,12 +38,11 @@ Ticketmaster API for event listings
 
 
 
+<h2> Credits </h2>
 
-Credits
+Ticketmaster, Google and Openweather API - for API tools.
 
-A huge shoutout to Ticketmaster and Openweather API for your tools, thank you to Kay, Emily and Stevie for the collective effort and enthusiasm, and thank you Michael for
+Stevie Summers and Kianna Young - Project Management, Front end design, App idea and developement.
 
-putting us in this group together. and also Emily Morosoff's repository where most of the work originated: https://github.com/emilymorosoff/weather-app.git
-
-putting us in this group together.
+Emily Morosoff - Original code author. Repository: https://github.com/emilymorosoff/weather-app.git
 
